@@ -1,0 +1,85 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.author-box{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 8%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: solid 1px #5d4e34;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #bfbf9d;
+    transition: 0.5s;
+}
+
+.author-box:hover{
+    background:#9a9a80;
+    /* width: 96%; */
+    margin-top: 7%;
+    /* cambiar el width */
+    transition: 0.5s;
+}
+
+.author{
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.author .image{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    margin:20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.author .info{
+    width: webkit-fill-avaliable;
+    padding: 20px 10px 20px 120px;
+}
+
+.author .name{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.author .about{
+    color: #453c3c;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.author .more{
+    width: fit-content;
+    color:#000;
+    font-weight: 500;
+    display:block;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px #bfbf9d;
+}
+
+@media screen and (max-width:880px) {
+    .author-box{width: 100%}
+}
+
+@media screen and (max-width: 480px){
+    .author-box .info{padding: 20px}
+    .author .image{
+        position: relative;
+        margin: 20px 0 0 20px
+    }
+}

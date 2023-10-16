@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="styless-index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'reviews</title>
+    
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+	<h2>L'reviews<span>.</span>com</h2>
+      </div>
+      <ul class="nav-links">
+	<li><a href="#" class="link" id="indica">Inicio</a></li>
+	<!-- <li><a href="#"class="link">Servicios</a></li> -->
+	<li><a href="about.html" class="link">Acerca de</a></li>
+	<li><a href="contact.html" class="link">Contacto</a></li>
+      </ul>
+
+      <div class="toggle">
+	|||
+      </div>
+    </nav>
+  </header>
+  
+
+    <h1>L'reviews</h1>
+
+    <div class="selector">
+        <div class="texto-selec">
+            <p>
+                Este buscador te permite navegar entre las reviews con las que actualmente contamos.
+            </p>
+            <p>
+                Por favor, elige la película de tu interés.
+            </p>
+
+        </div>
+        <div class="buscador">
+            <form id="buscar">
+                <select name="opciones" id="caja">
+                    <option value="">Recomendaciones</option>
+                    <option value="The Secret Life of Walter Mitty">The Secret Life of Walter Mitty</option>
+                    <option value="Children of Men">Children of Men</option>
+                    <option value="At Eternity's Gate">At Eternity's Gate</option>
+                </select>
+                <input type="submit" value="seleccionar" />
+            </form>
+        </div>
+    </div>
+
+    <!-- recomendaciones semanales -->
+    <div class="review1-box box-active" id="default">
+        <div class="titulorecom">
+            <h2>Recomendaciones semanales</h2>
+        </div>
+        <div class="recom">
+            <div class="recom1">
+                <div class="titureco">
+                    <h2>Arrival</h2>
+                </div>
+                <div class="textoreco">
+                    <div class="imgreco">
+                        <img src="https://moviepostermexico.com/cdn/shop/products/arrival_xxlg_1312x.jpg?v=1598544153" alt="Poster">
+                    </div>
+                    <div class="sinopsis">
+                        "Arrival", bajo la dirección de Denis Villeneuve, encapsula la intrigante llegada de naves extraterrestres y la consiguiente tarea de comunicación que recae en la lingüista Louise Banks, interpretada por Amy Adams. A medida que Banks decodifica el complejo lenguaje alienígena, desvela una percepción temporal no lineal de los visitantes. Esta película reflexiona sobre la comunicación, el tiempo y la colaboración global, fusionándolos con una historia personal emotiva. "Arrival" desafía los cánones del género de ciencia ficción, envolviendo a los espectadores en una atmósfera introspectiva y cautivadora.
+                    </div>
+                </div>
+            </div>
+            <div class="recom2">
+                <div class="titureco">
+                    <h2>Her</h2>
+                </div>
+                <div class="textoreco">
+                    <div class="imgreco">
+                        <img src="https://i.pinimg.com/originals/cf/13/37/cf133738b0f7fb340763f832d226ff3e.jpg" alt="Poster">
+                    </div>
+                    <div class="sinopsis">
+                        "Her", dirigida por Spike Jonze, presenta un futuro cercano donde Theodore Twombly, interpretado por Joaquin Phoenix, busca conexión emocional tras una dolorosa ruptura. En su soledad, Theodore establece una relación peculiar con Samantha, un avanzado sistema operativo de inteligencia artificial con la voz de Scarlett Johansson. A medida que su vínculo se profundiza, la película explora temas de aislamiento, tecnología y humanidad, cuestionando las fronteras entre lo real y lo artificial. "Her" desafía la noción de identidad, intimidad y autenticidad en una sociedad cada vez más inmersa en lo digital.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <aside>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda optio cum numquam dolores vitae natus laborum. Praesentium atque molestiae eum autem accusantium excepturi sunt? Eaque ut qui veritatis iure!
+        </aside> -->
+    </div>
+
+    
+    <!-- creando los contenedores de info -->
+
+    <div class="review1-box" id="1">
+        <div class="reviews">
+            <div class="img">
+                <img src="https://moviepostermexico.com/cdn/shop/products/Mitty_Cityspace_Web4_1024x1024@2x.jpg?v=1629987026" alt="Poster">
+            </div>
+            <div class="info">
+                <div class="tab-container">
+                    <ul class="options">
+                        <li id="option1" class="option option-active"> <p class="ops">Review</p></li>
+                        <li id="option2" class="option"><p class="ops">Trailer</p></li>
+                    </ul>
+
+                    <div class="contents">
+                        <div id="content1" class="content content-active">
+                            <h2>The Secret Life of Walter Mitty</h2>
+                            <p>
+                                Esta película ya la había visto antes, justo en el año de su estreno, sin embargo, llevaba un par de años sin verla nuevamente. Tengo que decir que desde que la vi por primera vez me pareció muy buena y muy entretenida, no sabía que el director era Ben Stiller lo cual fue algo que me pareció muy curioso pensando en que él no ha dirigido tantas películas y con ésta presentó una muy bien lograda.
+                                La película ejemplifica de una manera muy poco común el viaje del héroe, dando un ejemplo de éste en una forma más humana y real, lo cual nos hace conectar mucho con el personaje de Walter.
+
+                                <form class="form1">
+                                    <p class="clasificacion">
+                                      <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                      --><label for="radio1">★</label><!--
+                                      --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                      --><label for="radio2">★</label><!--
+                                      --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                      --><label for="radio3">★</label><!--
+                                      --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                      --><label for="radio4">★</label><!--
+                                      --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                      --><label for="radio5">★</label>
+                                    </p>
+                                  </form>
+
+                            
+                        </div>
+
+                        <div id="content2" class="content">
+                            <h2>Trailer</h2>
+
+			    <p>
+                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QD6cy4PBQPI?si=MM5c6UAKfqKhINHj" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="review1-box" id="2">
+        <div class="reviews">
+            <div class="img">
+                <img src="https://images.squarespace-cdn.com/content/v1/5e7a8f6d95bc3643e73bc2e8/1587009387440-UUQWDO92SL0OI7STRU24/children_men.png?format=2500w" alt="Poster">
+            </div>
+            <div class="info">
+                <div class="tab-container">
+                    <ul class="options">
+                        <li id="option3" class="option option-active"> <p class="ops">Review</p></li>
+                        <li id="option4" class="option"><p class="ops">Trailer</p></li>
+                    </ul>
+
+                    <div class="contents">
+                        <div id="content3" class="content content-active">
+                            <h2>Children of Men</h2>
+                            <p>
+                                Esta drama distópica, que está basada en el libro de P.D James que lleva el mismo nombre, tiene como premisa un mundo donde, por efectos desconocidos para nosotros como espectadores, las mujeres pierden la fertilidad, haciendo que el ultimo niño nacido sea hace más de 18 años. La película se desarrolla contándonos la travesía del personaje principal (interpretado por Clive Owen) para llegar a un lugar seguro con la que se convertiría en la primera mamá desde hace 18 años (Clare-Hope Ashitey). En general la película cuenta con un fondo muy conciso y bueno, esto en gran parte por ser una adaptación literal, aunque también gran parte de lo bien de su fondo es que hayan cambiado que la infertilidad ocurra en las mujeres (cosa que ocurre al revés en el libro), ya que esto le da un aspecto más "tierno" al problema, lo cual no hace conectar más. Hablando de su forma, primero mencionar que los escenarios están muy bien logrados, teniendo desde zonas urbanas con aspecto distócico donde se puede ver y sentir la desesperanza, hasta localidad marginadas que dan aires de parecer holocausticos (algo que parece muy certero al tema de la película).
+
+                                <form class="form1">
+                                    <p class="clasificacion">
+                                      <input id="radio6" type="radio" name="estrellas" value="5"><!--
+                                      --><label for="radio6">★</label><!--
+                                      --><input id="radio7" type="radio" name="estrellas" value="4"><!--
+                                      --><label for="radio7">★</label><!--
+                                      --><input id="radio8" type="radio" name="estrellas" value="3"><!--
+                                      --><label for="radio8">★</label><!--
+                                      --><input id="radio9" type="radio" name="estrellas" value="2"><!--
+                                      --><label for="radio9">★</label><!--
+                                      --><input id="radio10" type="radio" name="estrellas" value="1"><!--
+                                      --><label for="radio10">★</label>
+                                    </p>
+                                  </form>
+
+                            
+                        </div>
+
+                        <div id="content4" class="content">
+                            <h2>Trailer</h2>
+                            <p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/2VT2apoX90o?si=ML2DuosE1oc4VRFE" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="review1-box" id="3">
+        <div class="reviews">
+            <div class="img">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTRmZGJiZjUtMGJjYi00MzZhLTkzYjUtODE1Yjk5ZDRiODhlXkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_.jpg" alt="Poster">
+            </div>
+            <div class="info">
+                <div class="tab-container">
+                    <ul class="options">
+                        <li id="option5" class="option option-active"> <p class="ops">Review</p></li>
+                        <li id="option6" class="option"><p class="ops">Trailer</p></li>
+                    </ul>
+
+                    <div class="contents">
+                        <div id="content5" class="content content-active">
+                            <h2>At Eternity’s Gate</h2>
+                            <p>
+                                Para empezar me gustaría mencionar que la belleza de esta película no sería perceptible de la misma manera sin tener un acercamiento previo sobre el uso del lenguaje cinematográfico. Con esto dicho, quiero decir que esta película live accion que está dirigida mayormente para adultos y específicamente para aquellos que disfrutan del arte o del cine. Esta "biopic" dramática tiene tan pocos diálogos que creo que no es necesario hablar de ellos, sin embargo, el lenguaje cinematográfico es tan presente que realmente no se necesitan de momentos hablados para poder sentir lo que el director quiere transmitir. El film nos habla del famoso pintor Vincent Van Gogh, llevándonos a través de su viaje cuando se decidió dejar París para estar solo en lugares más coloridos.
+                                En cuestión de lo visual, todo es un acierto. Hace mucho uso de la handcam y el POV para que nos conectemos puramente con el personaje, y además ocupa los colores para crear contraste entre las diversas situaciones que ocurren, como cuando emprende su viaje y pasamos de colores grises a colores más brillantes, como el amarillo de los girasoles tan característicos de las pinturas de Vincent. En fin es una película que es disfrutable para entusiastas del arte y del cine, ya que por su poca presencia de diálogos puede ser difícil de digerir para un público más general.
+                                <form class="form1">
+                                    <p class="clasificacion">
+                                      <input id="radio11" type="radio" name="estrellas" value="5"><!--
+                                      --><label for="radio11">★</label><!--
+                                      --><input id="radio12" type="radio" name="estrellas" value="4"><!--
+                                      --><label for="radio12">★</label><!--
+                                      --><input id="radio13" type="radio" name="estrellas" value="3"><!--
+                                      --><label for="radio13">★</label><!--
+                                      --><input id="radio14" type="radio" name="estrellas" value="2"><!--
+                                      --><label for="radio14">★</label><!--
+                                      --><input id="radio15" type="radio" name="estrellas" value="1"><!--
+                                      --><label for="radio15">★</label>
+                                    </p>
+                                  </form>
+
+                            
+                        </div>
+
+                        <div id="content6" class="content">
+                            <h2>Trailer</h2>
+                            <p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/T77PDm3e1iE?si=GsY7ptLxkqy-DPGx" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <aside>
+        <div class="comentcont">
+            <div class="comentstyle">
+                
+                <div id="disqus_thread"></div>
+                
+            </div>
+        </div>
+    </aside>
+    
+    <footer>
+        Made by Luis May for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://lreviews.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
